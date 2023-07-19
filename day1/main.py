@@ -230,10 +230,10 @@ if "age" in my_dictionary:
     pass
 else:
     my_dictionary["age"] = 50
-"""
 
 
-a = {"a" : 90 , "b" : 80 , "c" : 70, "d" : 60}
+
+a = {"a" : 90 , "b" : 80 , "c" : 70, "d": 60}
 
 print(a["a"],a["b"])
 print(a.get("a"))
@@ -241,3 +241,81 @@ print(a.get("a"))
 if('b' in a):
     print(a["b"])
 
+my_set = {1,2,3}
+my_set.add(4)
+my_set.add(4)
+my_set.add(4)
+
+print(my_set)
+
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7}
+set2.add(8)
+set2.update([9,10,11,12])
+
+print(set1 & set2)
+print(set1 | set2)
+print(set1 - set2)
+
+s1 = set([1,2,3,4,5,6])
+s2 = set([4,5,6,7,8,9])
+ss1 = set1 & set2
+ss2 = set1.intersection(set2)
+ss3 = s1 - s2
+ss4 = s1.difference(set2)
+
+
+print("------")
+print(s1 & s2)
+print(s1 - s2)
+
+s3 ={1,2,3,4,4,4,9,11,11,11,14}
+print(s3 | s3)
+
+
+my_list = list(set(s3))
+print(my_list)
+
+my_list.sort()
+print(my_list)
+my_list = sorted(my_list)
+print(my_list)
+
+
+
+print(5  == "5")
+print(5  != "5")
+print(5 > 3)
+print(3 <= 2)
+
+
+
+
+
+
+
+print(5 >3 and 10 >1)
+print(5 >3 or 10 <1)
+print(not 1 >2)
+print(not False)
+print(not True)
+
+
+if True:
+    print()
+    print()
+elif (3> 5 amd 2 <4):
+    print()
+elif:
+    print()
+
+
+"""
+
+score = int(input("점수가 몇점인가요 : "))
+
+if score >= 60 :
+    print("pass입니다")
+else:
+    print("false 입니다")
