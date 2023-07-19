@@ -1,4 +1,4 @@
-""""
+"""
 print('hello')
 
 a=10
@@ -25,8 +25,6 @@ print('*' * 10)
 
 happy_face ='🥰'
 print(happy_face)
-
-"""
 
 a = "3"
 b = "5"
@@ -104,5 +102,31 @@ print(class_name[4:])
 print(class_name[:7])
 
 class_name.count("a")
+"""
+
+find_str = "python!"
+print(find_str.find("y"))
 
 
+title = "   PYTHON class   "
+print(title.upper())
+print(title.lower())
+print(title.strip())
+
+print(title.upper(),title.lower(),title.strip())
+
+quote= "Life is too short"
+print(quote.replace("too", "very"))
+print(quote.replace("o", "0"))
+print(quote.replace(" ", ""))
+print(quote.split(" "))
+
+
+quote2= "Learn Python"
+print(quote2.split(" "))
+print(quote2.split("p"))
+print(quote2.split("arn"))
+
+
+example = "a:b:c:d"
+print(example.split(":"))
