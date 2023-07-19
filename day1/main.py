@@ -311,7 +311,6 @@ elif:
     print()
 
 
-"""
 
 score = int(input("점수가 몇점인가요 : "))
 
@@ -319,3 +318,18 @@ if score >= 60 :
     print("pass입니다")
 else:
     print("false 입니다")
+"""
+
+
+score = int(input("점수가 몇점인가요 : "))
+if score >= 90 :
+    print("A입니다")
+elif score >= 80 :
+    print("B입니다")
+elif score >= 70 :
+    print("C입니다")
+elif score >= 60 :
+    print("D입니다")
+else:
+    print("false 입니다")
+
