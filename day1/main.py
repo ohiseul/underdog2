@@ -175,3 +175,37 @@ a.remove(3) #첫번째로 나오는 3 삭제
 print(a)
 a.pop() #맨뒤로 나오는거 삭제 마지막3
 print(a)
+
+
+a=["a","b","c","d","e"]
+print(a.pop(1))
+print(a)
+
+a= "lalalalalalaaaa"
+print("count of a is :" , a.count("a"))
+
+a=["A","c","b","E","B","D","e"]
+print(a.count("A"))
+print(sorted(a))
+
+my_list = [0] *10
+my_tuple = (0,) *10
+
+print(my_list)
+print(my_tuple)
+
+my_list = [1,2,3,["a","b","c"]]
+print(my_list[3][2])
+print(len(my_list))
+print(len(my_list[3]))
+
+
+my_dictionary = dict()
+print(my_dictionary)
+my_dictionary = {"name":"이름","location":"서울"}
+my_dictionary["age"] = 29
+my_dictionary["office location"] = "지역"
+my_dictionary["favorite_foods"] = [{"name":"이름2","is_healthy":True},{"name":"이름3","is_healthy":False}]
+
+print(my_dictionary)
+
