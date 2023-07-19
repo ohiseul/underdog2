@@ -356,5 +356,11 @@ for letter in my_list:
 
 for i in range(5):
     print(i)
-for i in range(4):
+for i in range(len(my_list)):
     print(my_list[i])
+
+
+def say_hello(name):
+    print('hello', name)
+
+say_hello("이름")
