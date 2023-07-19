@@ -86,3 +86,23 @@ print(len(a))
 print(a[0])
 print(a[12])
 
+# 슬라이싱 개념
+print(a[0:12])
+print(a[1:2])
+print(a[2:3])
+print(a[3:6])
+print(a[4:13])
+print(a[5:14])
+print(a[6:15])
+
+my_list = [1, 2, 3.5, "hello" ,[1, 2, 3, 4, 5] ,True, False]
+print(my_list[3:5])
+
+class_name= "chatgpt api"
+print(len(class_name))
+print(class_name[4:])
+print(class_name[:7])
+
+class_name.count("a")
+
+
