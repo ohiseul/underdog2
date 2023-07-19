@@ -102,7 +102,6 @@ print(class_name[4:])
 print(class_name[:7])
 
 class_name.count("a")
-"""
 
 find_str = "python!"
 print(find_str.find("y"))
@@ -131,3 +130,48 @@ print(quote2.split("arn"))
 example = "a:b:c:d"
 print(example.split(":"))
 
+a = [1,2,3]
+a[2] = 4
+print(a)
+
+del a[2]
+
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+del a[1:6]
+print(a)
+
+
+a = [0,1,2,3]
+a.append(4)
+a.append(5)
+print(a)
+
+a.append(["0","1","2","3"])
+print(a)
+
+a.extend(["0","1","2","3"])
+print(a)
+
+"""
+
+a = [9,3,6,1,12,2,33,4,8,5]
+print(sorted(a))
+print(a)
+a.sort()
+print(a)
+
+a=["a","b","c","d"]
+a.reverse()
+print(a)
+
+a.append(10)
+print(a)
+a.insert(2,"0")
+print(a)
+
+
+a =[1,2,3,1,2,3]
+a.remove(3) #첫번째로 나오는 3 삭제
+print(a)
+a.pop() #맨뒤로 나오는거 삭제 마지막3
+print(a)
