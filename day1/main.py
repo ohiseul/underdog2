@@ -152,7 +152,6 @@ print(a)
 a.extend(["0","1","2","3"])
 print(a)
 
-"""
 
 a = [9,3,6,1,12,2,33,4,8,5]
 print(sorted(a))
@@ -204,8 +203,36 @@ my_dictionary = dict()
 print(my_dictionary)
 my_dictionary = {"name":"이름","location":"서울"}
 my_dictionary["age"] = 29
-my_dictionary["office location"] = "지역"
+my_dictionary["office_location"] = "지역"
 my_dictionary["favorite_foods"] = [{"name":"이름2","is_healthy":True},{"name":"이름3","is_healthy":False}]
 
 print(my_dictionary)
+
+
+print(my_dictionary["name"])
+print(my_dictionary.get("office_location", "Unknown"))
+
+print(my_dictionary.keys())
+print(my_dictionary.values())
+print(my_dictionary.items())
+
+for key, value in my_dictionary.items():
+    print("key",key)
+    print("value",value)
+
+
+
+print(5 < 3)
+print(5 < 10)
+print("age" in my_dictionary)
+
+if "age" in my_dictionary:
+    pass
+else:
+    my_dictionary["age"] = 50
+"""
+
+a = {"a" : 90 , "b" : 80 , "c" : 70, "d" : 60}
+
+print(a["a"],a["b"])
 
