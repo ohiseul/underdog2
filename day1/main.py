@@ -318,11 +318,10 @@ if score >= 60 :
     print("pass입니다")
 else:
     print("false 입니다")
-"""
 
 
 score = int(input("점수가 몇점인가요 : "))
-if score >= 90 :
+if 101 > score >= 90 :
     print("A입니다")
 elif score >= 80 :
     print("B입니다")
@@ -333,3 +332,29 @@ elif score >= 60 :
 else:
     print("false 입니다")
 
+"""
+
+a = 5
+while a >0:
+    print('hello')
+    a -=1
+
+print('a:', a)
+
+
+a = -5
+while a < 0:
+    print('a is below 0')
+    a +=1
+
+print('a:', a)
+
+
+my_list = ["a","b","c","d"]
+for letter in my_list:
+    print(letter)
+
+for i in range(5):
+    print(i)
+for i in range(4):
+    print(my_list[i])
