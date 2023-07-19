@@ -232,7 +232,12 @@ else:
     my_dictionary["age"] = 50
 """
 
+
 a = {"a" : 90 , "b" : 80 , "c" : 70, "d" : 60}
 
 print(a["a"],a["b"])
+print(a.get("a"))
+
+if('b' in a):
+    print(a["b"])
 
