@@ -332,7 +332,6 @@ elif score >= 60 :
 else:
     print("false 입니다")
 
-"""
 
 a = 5
 while a >0:
@@ -364,3 +363,45 @@ def say_hello(name):
     print('hello', name)
 
 say_hello("이름")
+
+"""
+# abs 함수
+# print(abs(3))
+# print(abs(-3.5))
+# print(abs(-7))
+
+# id 함수
+# a = 3
+# print(id(a))
+# b = 3
+# print(id(b))
+# print(a is b)
+
+# sum함수
+# print(sum([1,2,3,4,5,6,7]))
+# print(sum((1,2,3,4,5,6,7)))
+# print(sum({1,2,3,4,5,6,7}))
+
+
+# for i in range(0,5):
+#     print(i)
+# for i in range(0,5,2):
+#     print(i)
+# for i in range(5,0,-2):
+#     print(i)
+
+# a = [5,3,2,1,4]
+# print(sorted(a))
+# print(a)
+
+
+def positive(x):
+    return x > 0
+
+
+a = [1,3,0,-4,-8]
+# print(positive(a)) #에러 리스트랑 정수랑 비교이므로
+
+print(list(filter(positive , a ))) # [1, 3]
+
+
