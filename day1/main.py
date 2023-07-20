@@ -364,7 +364,7 @@ def say_hello(name):
 
 say_hello("이름")
 
-"""
+
 # abs 함수
 # print(abs(3))
 # print(abs(-3.5))
@@ -405,31 +405,92 @@ say_hello("이름")
 # print(list(filter(positive , a ))) # [1, 3]
 
 
-colors = ["색1","색2","색3","색4"]
-names = ["이름1","이름2","이름3","이름4"]
+# colors = ["색1","색2","색3","색4"]
+# names = ["이름1","이름2","이름3","이름4"]
 
-for i,name in enumerate(names):
-    print(name, f"like color {colors[i]}")
+# for i,name in enumerate(names):
+#     print(name, f"like color {colors[i]}")
 
-number_list = [55,21,1,158,88,213]
-print(min(number_list))
-print(max(number_list))
+# number_list = [55,21,1,158,88,213]
+# print(min(number_list))
+# print(max(number_list))
 
-num = int(input("숫자입력: "))
+# num = int(input("숫자입력: "))
 
-if(num >0):
-    print("양수")
-else:
-    print("음수")
+# if(num >0):
+#     print("양수")
+# else:
+#     print("음수")
 
 
-# 무조건 내림
-print(int("35"))
-print(int(3.8))
-print(int(3.2))
+# # 무조건 내림
+# print(int("35"))
+# print(int(3.8))
+# print(int(3.2))
 
-# 튜플 함수
-a = [1,1,1,1,1,2,4,4,4]
-print(list(set(a)))
-print(tuple(a))
+# # 튜플 함수
+# a = [1,1,1,1,1,2,4,4,4]
+# print(list(set(a)))
+# print(tuple(a))
+
+# a = "3.5"
+# print(float(a))
+# a=1
+# print(float(a))
+
+# print(bool(0)) # 0 이 아닌 건 true
+
+# if 0:
+#     print("True")
+
+# a=["a","b","c","d","e","f"]
+# for i in range(0, len(a)):
+#     print(a[i])
+
+# a=3.5
+# print(str(a)== "3.5")
+# print(type(3.5))
+# print(type(str(3.5)))
+# print(type(int(3.5)))
+# print(type([1,2,3,4]))
+
+
+import os
+print(os.getcwd())
+print(os.name)
+
+
+
+
+import time
+# from time import time
+print(time.time())
+
+def million_operation_funtion():
+    start = time.time()
+    my_list = []
+    for i in range(1,100000):
+        my_list.append(0)
+
+    end = time.time()
+    print(end - start)
+
+million_operation_funtion()
+
+
+import datetime
+now = datetime.datetime.now()
+print(now.month)
+print(now.day)
+print(now.hour)
+print(now.minute)
+print(now.second)
+print(now.microsecond)
+
+"""
+
+import random
+print(random.randint(0,10))
+
+
 
