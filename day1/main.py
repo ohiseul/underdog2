@@ -395,13 +395,41 @@ say_hello("이름")
 # print(a)
 
 
-def positive(x):
-    return x > 0
+# def positive(x):
+#     return x > 0
 
 
-a = [1,3,0,-4,-8]
-# print(positive(a)) #에러 리스트랑 정수랑 비교이므로
+# a = [1,3,0,-4,-8]
+# # print(positive(a)) #에러 리스트랑 정수랑 비교이므로
 
-print(list(filter(positive , a ))) # [1, 3]
+# print(list(filter(positive , a ))) # [1, 3]
 
+
+colors = ["색1","색2","색3","색4"]
+names = ["이름1","이름2","이름3","이름4"]
+
+for i,name in enumerate(names):
+    print(name, f"like color {colors[i]}")
+
+number_list = [55,21,1,158,88,213]
+print(min(number_list))
+print(max(number_list))
+
+num = int(input("숫자입력: "))
+
+if(num >0):
+    print("양수")
+else:
+    print("음수")
+
+
+# 무조건 내림
+print(int("35"))
+print(int(3.8))
+print(int(3.2))
+
+# 튜플 함수
+a = [1,1,1,1,1,2,4,4,4]
+print(list(set(a)))
+print(tuple(a))
 
