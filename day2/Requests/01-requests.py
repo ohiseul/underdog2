@@ -1,6 +1,8 @@
 import requests
 import secrets
 
+"""
+
 # def main():
 #     response = requests.get(f"http://api.exchangeratesapi.io/v1/latest?access_key={secrets.API_KEY}")
 #     print(response.status_code)
@@ -51,3 +53,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+
+
